@@ -1,6 +1,6 @@
 {
   "name": "bilibala-echarts-panel",
-  "version": "2.2.4",
+  "version": "3.0.0",
   "description": "Echarts panel for grafana",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
@@ -13,13 +13,9 @@
     "md5": "md5 -r \"$npm_package_name\"-\"$npm_package_version\".zip>\"$npm_package_name\"-\"$npm_package_version\".zip.md5",
     "compress": "rm \"$npm_package_name\"* || true && npm run zip && npm run md5"
   },
-  "repository": "github:Billiballa/bilibala-echarts-panel",
+  "repository": "github:henriquegdantas/bilibala-echarts-panel",
   "author": "bilibala",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Billiballa/bilibala-echarts-panel/issues",
-    "email": "wangqianxiang@outlook.com"
-  },
   "devDependencies": {
     "@grafana/data": "^7.5.14",
     "@grafana/toolkit": "^7.5.14",
