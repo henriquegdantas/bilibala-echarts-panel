@@ -21,7 +21,7 @@
     "email": "wangqianxiang@outlook.com"
   },
   "devDependencies": {
-    "@grafana/data": "^7.3.0",
+    "@grafana/data": "^7.5.14",
     "@grafana/toolkit": "^7.3.0",
     "@grafana/ui": "^7.3.0",
     "@types/codemirror": "^0.0.100",
