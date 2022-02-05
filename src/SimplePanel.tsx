@@ -19,7 +19,7 @@ maps.keys().map((m: string) => {
     echarts.registerMap(matched[1], maps(m));
   } else {
     console.warn(
-      "Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/."
+      "Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/.",
     );
   }
 });
@@ -70,7 +70,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       }
     },
     150,
-    { leading: true }
+    { leading: true },
   );
 
   useEffect(() => {
@@ -114,7 +114,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
           css`
             width: ${width}px;
             height: ${height}px;
-          `
+          `,
         )}
       />
     </>
