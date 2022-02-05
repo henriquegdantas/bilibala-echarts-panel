@@ -33,3 +33,5 @@ e2e-results/
 
 *.zip
 *.md5
+
+.env
