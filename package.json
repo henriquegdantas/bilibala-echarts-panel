@@ -17,13 +17,13 @@
   "author": "bilibala",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@emotion/css": "^11.7.1",
     "@grafana/data": "^7.5.14",
     "@grafana/toolkit": "^7.5.14",
     "@grafana/ui": "^7.5.14",
     "@types/codemirror": "^5.60.5",
     "@types/echarts": "^4.9.13",
-    "@types/lodash": "^4.14.178",
-    "emotion": "11.0.0"
+    "@types/lodash": "^4.14.178"
   },
   "dependencies": {
     "codemirror": "^5.65.1",
