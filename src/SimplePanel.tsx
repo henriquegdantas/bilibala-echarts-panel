@@ -103,7 +103,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
         <div className={styles.tips}>
           <h5 className={styles.tipsTitle}>Editor content error!</h5>
           {(tips.stack || tips.message).split('\n').map(s => (
-            <p>{s}</p>
+            <p key={s}>{s}</p>
           ))}
         </div>
       )}
