@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { PanelProps, GrafanaTheme } from '@grafana/data';
 import { withTheme } from '@grafana/ui';
 import { debounce } from 'lodash';
+import * as echarts from 'echarts';
 import { css, cx } from '@emotion/css';
 import { SimpleOptions, funcParams } from 'types';
 
